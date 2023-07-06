@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-truck.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="styles/chat-style.css">
+  <script src="scripts/chat.js" defer></script>
+  <title>AirLink Express</title>
+</head>
+<body>
+  <header class="cabecalho">  
+    <nav class="nav-menu">
+      <a href="home.html" class="nav-menu-item">Home</a>
+      <a href="caminhoes.html" class="nav-menu-item">Caminhões</a>
+      <a href="caminhoneiros.html" class="nav-menu-item">Caminhoneiros</a>
+      <a href="chat.html" class="nav-menu-item">Chat</a>
+    </nav>
+  </header>
+  <main class="main-container">
+
+    <div class="container-center">
+      <div class="container-chat">
+        <div id="chat-container" class="chat-container"></div>
+        <div class="input-container">
+            <input type="text" id="pergunta" onkeydown="verificarTecla(event)">
+            <button aria-placeholder="Digite uma mensagem..." onclick="conversar()">Enviar</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <span>Copyright &copy; | Tree Code</span>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-truck.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="styles/caminhoneiros-style.css">
+  <script src="scripts/caminhoneiros.js" defer></script>
+  <title>AirLink Express</title>
+</head>
+<body>
+  <header class="cabecalho">  
+    <nav class="nav-menu">
+      <a href="home.html" class="nav-menu-item">Home</a>
+      <a href="caminhoes.html" class="nav-menu-item">Caminhões</a>
+      <a href="caminhoneiros.html" class="nav-menu-item">Caminhoneiros</a>
+      <a href="chat.html" class="nav-menu-item">Chat</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Nossos Caminhoneiros</h1>
+    <div class="gallery-container">
+
+      <!-- ... Lucas Silva - 25 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="images/homem1.jpg"  class="gallery-items">
+          <img src="images/homem1.jpg" alt="Trabalhador 1">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal1')">Verificar Disponibilidade</button>
+        <dialog id="modal1">
+          <h2>Lucas Silva</h2>
+          <h3>25 anos</h3>
+          <p>Em trajetória.</p>
+          <button onclick="closeModal('modal1')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Isabella Santos - 22 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="images/mulher1.jpg" class="gallery-items">
+          <img src="images/mulher1.jpg" alt="Trabalhador 2">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal2')">Verificar Disponibilidade</button>
+        <dialog id="modal2">
+          <h2>Isabella Santos</h2>
+          <h3>22 Anos</h3>
+          <p>Disponível para trabalhar.</p>
+          <button onclick="closeModal('modal2')">Fechar</button>
+          </dialog>
+      </div>
+
+      <!-- ... Rafael Mendes - 26 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="images/homem2." class="gallery-items">
+          <img src="images/homem2.jpg" alt="Trabalhador 3">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal3')">Verificar Disponibilidade</button>
+        <dialog id="modal3">
+          <h2>Rafael Mendes</h2>
+          <h3>26 Anos</h3>
+          <p>Atualmente de férias.</p>
+          <button onclick="closeModal('modal3')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Sophia Lima - 24 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="images/mulher2.jpg" class="gallery-items">
+          <img src="images/mulher2.jpg" alt="Trabalhador 4">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal4')">Verificar Disponibilidade</button>
+        <dialog id="modal4">
+          <h2>Sophia Lima</h2>
+          <h3>24 Anos</h3>
+          <p>Em trajetória.</p>
+          <button onclick="closeModal('modal4')">Fechar</button>
+        </dialog>
+      </div>
+      
+      <!-- ... Guilherme Santos - 23 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Sally Carrera.jpg" class="gallery-items">
+          <img src="images/homem3.jpg" alt="Trabalhador 5">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal5')">Verificar Disponibilidade</button>
+        <dialog id="modal5">
+          <h2>Guilherme Santos</h2>
+          <h3>23 Anos</h3>
+          <p>Disponível para trabalhar.</p>
+          <button onclick="closeModal('modal5')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Giovanna Ferreira - 22 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Sheriff.jpg" class="gallery-items">
+          <img src="images/mulher3.jpg" alt="Trabalhador 6">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal6')">Verificar Disponibilidade</button>
+        <dialog id="modal6">
+          <h2>Giovanna Ferreira</h2>
+          <h3>22 Anos</h3>
+          <p>Atualmente está doente.</p>
+          <button onclick="closeModal('modal6')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Pedro Oliveira - 26 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Fillmore.jpg" class="gallery-items">
+          <img src="images/homem4.jpg" alt="Trabalhador 7">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal7')">Verificar Disponibilidade</button>
+        <dialog id="modal7">
+          <h2>Pedro Oliveira</h2>
+          <h3>26 Anos</h3>
+          <p>Em trajetória.</p>
+          <button onclick="closeModal('modal7')">Fechar</button>
+        </dialog>
+      </div>
+      
+      <!-- ... Laura Oliveira - 28 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Ruivo.jpg" class="gallery-items">
+          <img src="images/mulher4.jpg" alt="Trabalhador 8">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal8')">Verificar Disponibilidade</button>
+        <dialog id="modal8">
+          <h2>Laura Oliveira</h2>
+          <h3>28 Anos</h3>
+          <p>Disponível para trabalhar.</p>
+          <button onclick="closeModal('modal8')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Matheus Costa - 27 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Guido.png" class="gallery-items">
+          <img src="images/homem5.jpg" alt="Trabalhador 9">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal9')">Verificar Disponibilidade</button>
+        <dialog id="modal9">
+          <h2>Matheus Costa</h2>
+          <h3>27 Anos</h3>
+          <p>Atualmente doente.</p>
+          <button onclick="closeModal('modal9')">Fechar</button>       
+        </dialog>
+      </div>
+
+      <!-- ... Manuela Costa - 21 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Flo.jpg" class="gallery-items">
+          <img src="images/mulher5.jpg" alt="Trabalhador 10">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal10')">Verificar Disponibilidade</button>
+        <dialog id="modal10">
+          <h2>Manuela Costa</h2>
+          <h3>21 Anos</h3>
+          <p>Disponível para trabalhar.</p>
+          <button onclick="closeModal('modal10')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Gustavo Almeida - 23 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Flo.jpg" class="gallery-items">
+          <img src="images/homem6.jpg" alt="Trabalhador 11">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal11')">Verificar Disponibilidade</button>
+        <dialog id="modal11">
+          <h2>Gustavo Almeida</h2>
+          <h3>23 Anos</h3>
+          <p>Atualmente de férias.</p>
+          <button onclick="closeModal('modal11')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Beatriz Rodrigues - 23 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Flo.jpg" class="gallery-items">
+          <img src="images/mulher6.jpg" alt="Trabalhador 12">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal12')">Verificar Disponibilidade</button>
+        <dialog id="modal12">
+          <h2>Beatriz Rodrigues</h2>
+          <h3>23 Anos</h3>
+          <p>Atualmente está doente.</p>
+          <button onclick="closeModal('modal12')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... André Pereira - 25 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Flo.jpg" class="gallery-items">
+          <img src="images/homem7.jpg" alt="Trabalhador 13">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal13')">Verificar Disponibilidade</button>
+        <dialog id="modal13">
+          <h2>André Pereira</h2>
+          <h3>25 Anos</h3>
+          <p>Está de folga.</p>
+          <button onclick="closeModal('modal13')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Maria Almeida - 24 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Flo.jpg" class="gallery-items">
+          <img src="images/mulher7.jpg" alt="Trabalhador 14">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal14')">Verificar Disponibilidade</button>
+        <dialog id="modal14">
+          <h2>Maria Almeida</h2>
+          <h3>24 Anos</h3>
+          <p>Disponível para trabalhar.</p>
+          <button onclick="closeModal('modal14')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Bruno Ferreira - 26 anos ... -->
+      <div class="gallery-subcontainer">
+        <a href="img/Flo.jpg" class="gallery-items">
+          <img src="images/homem8.jpg" alt="Trabalhador 15">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal15')">Verificar Disponibilidade</button>
+        <dialog id="modal15">
+          <h2>Bruno Ferreira</h2>
+          <h3>26 Anos</h3>
+          <p>Disponível para trabalhar.</p>
+          <button onclick="closeModal('modal15')">Fechar</button>
+        </dialog>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <span>Copyright &copy; | Tree Code</span>
+  </footer>
+</body>
+</html>

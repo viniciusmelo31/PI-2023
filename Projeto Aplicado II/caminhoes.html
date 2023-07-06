@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-truck.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="styles/caminhoes-style.css">
+  <script src="scripts/caminhoes.js" defer></script>
+  <title>AirLink Express</title>
+</head>
+<body>
+  <header class="cabecalho">  
+    <nav class="nav-menu">
+      <a href="home.html" class="nav-menu-item">Home</a>
+      <a href="caminhoes.html" class="nav-menu-item">Caminhões</a>
+      <a href="caminhoneiros.html" class="nav-menu-item">Caminhoneiros</a>
+      <a href="chat.html" class="nav-menu-item">Chat</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Caminhões</h1>
+    <div class="gallery-container">
+
+      <!-- ... Caminhão 1 ... -->
+      <div class="gallery-subcontainer">
+        <a href="images/caminhao1.jpg" class="gallery-items">
+          <img src="images/caminhao1.jpg" alt="Automóvel 1">
+        </a>
+        <button class="btn-subcontainer" onclick="openModal('modal-caminhao1')">Verificar Disponibilidade</button>
+        <dialog id="modal-caminhao1">
+          <h2>Mercedes-Benz</h2>
+          <h3>Modelo: Actros</h3>
+          <p>Consumo médio: 3,0 a 3,5 km/l</p>
+          <p>Quantidade: 2 unidades</p>
+          <button onclick="closeModal('modal-caminhao1')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Caminhão 2 ... -->
+      <div class="gallery-subcontainer">
+      <a href="images/caminhao2.webp" class="gallery-items">
+        <img src="images/caminhao2.webp" alt="Automóvel 2">
+      </a>
+      <button class="btn-subcontainer" onclick="openModal('modal-caminhao2')">Verificar Disponibilidade</button>
+        <dialog id="modal-caminhao2">
+          <h2>Volvo</h2>
+          <h3>Modelo: FH16</h3>
+          <p>Consumo Médio:2,8 a 3,5 km/l</p>
+          <p>Quantidade: 4 unidades</p>
+          <button onclick="closeModal('modal-caminhao2')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Caminhão 3 ... -->
+      <div class="gallery-subcontainer">
+      <a href="images/caminhao3.jpg" class="gallery-items">
+        <img src="images/caminhao3.jpg" alt="Automóvel 3">
+      </a>
+      <button class="btn-subcontainer" onclick="openModal('modal-caminhao3')">Verificar Disponibilidade</button>
+        <dialog id="modal-caminhao3">
+          <h2>MAN</h2>
+          <h3>Modelo: TGX</h3>
+          <p>Consumo médio: 3,0 a 3,5 km/l</p>
+          <p>Quantidade: 5 unidades</p>
+          <button onclick="closeModal('modal-caminhao3')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Caminhão 4 ... -->
+      <div class="gallery-subcontainer">
+      <a href="images/caminhao4.jpg" class="gallery-items">
+        <img src="images/caminhao4.jpg" alt="Automóvel 4">
+      </a>
+      <button class="btn-subcontainer" onclick="openModal('modal-caminhao4')">Verificar Disponibilidade</button>
+        <dialog id="modal-caminhao4">
+          <h2>Scania</h2>
+          <h3>Modelo: R-series</h3>
+          <p>Consumo médio: 3,2 a 3,8 km/l</p>
+          <p>Quantidade: 1 unidade</p>
+          <button onclick="closeModal('modal-caminhao4')">Fechar</button>
+        </dialog>
+      </div>
+      
+      <!-- ... Caminhão 5 ... -->
+      <div class="gallery-subcontainer">
+      <a href="images/caminhao5.jpg" class="gallery-items">
+        <img src="images/caminhao5.jpg" alt="Automóvel 5">
+      </a>
+      <button class="btn-subcontainer" onclick="openModal('modal-caminhao5')">Verificar Disponibilidade</button>
+        <dialog id="modal-caminhao5">
+          <h2>Iveco</h2>
+          <h3>Modelo: Stralis</h3>
+          <p>Consumo médio: 3,0 a 3,5 km/l</p>
+          <p>Quantidade: 3 unidades</p>
+          <button onclick="closeModal('modal-caminhao5')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Caminhão 6 ... -->
+      <div class="gallery-subcontainer">
+      <a href="images/caminhao6.png" class="gallery-items">
+        <img src="images/caminhao6.png" alt="Automóvel 6">
+      </a>
+      <button class="btn-subcontainer" onclick="openModal('modal-caminhao6')">Verificar Disponibilidade</button>
+        <dialog id="modal-caminhao6">
+          <h2>DAF</h2>
+          <h3>Modelo: XF</h3>
+          <p>Consumo médio: 3,2 a 3,8 km/l</p>
+          <p>Quantidade: 2 unidades</p>
+          <button onclick="closeModal('modal-caminhao6')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Caminhão 7 ... -->
+      <div class="gallery-subcontainer">
+      <a href="images/caminhao7.jpg" class="gallery-items">
+        <img src="images/caminhao7.jpg" alt="Automóvel 7">
+      </a>
+      <button class="btn-subcontainer" onclick="openModal('modal-caminhao7')">Verificar Disponibilidade</button>
+        <dialog id="modal-caminhao7">
+          <h2>Ford</h2>
+          <h3>Modelo: Cargo 2429</h3>
+          <p>Consumo médio: 3,5 a 4,0 km/l</p>
+          <p>Quantidade: 3 unidades</p>
+          <button onclick="closeModal('modal-caminhao7')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Caminhão 8 ... -->
+      <div class="gallery-subcontainer">
+      <a href="images/caminhao8.jpg" class="gallery-items">
+        <img src="images/caminhao8.jpg" alt="Automóvel 8">
+      </a>
+      <button class="btn-subcontainer" onclick="openModal('modal-caminhao8')">Verificar Disponibilidade</button>
+        <dialog id="modal-caminhao8">
+          <h2>Volkswagen</h2>
+          <h3>Modelo: Constellation 24.280</h3>
+          <p>Consumo médio: 3,8 a 4,2 km/l</p>
+          <p>Quantidade: 5 unidades</p>
+          <button onclick="closeModal('modal-caminhao8')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Caminhão 9 ... -->
+      <div class="gallery-subcontainer">
+      <a href="images/caminhao9.webp" class="gallery-items">
+        <img src="images/caminhao9.webp" alt="Automóvel 9">
+      </a>
+      <button class="btn-subcontainer" onclick="openModal('modal-caminhao9')">Verificar Disponibilidade</button>
+        <dialog id="modal-caminhao9">
+          <h2>Renault</h2>
+          <h3>Modelo: T 460</h3>
+          <p>Consumo médio: 3,4 a 3,8 km/l</p>
+          <p>Quantidade: 4 unidades</p>
+          <button onclick="closeModal('modal-caminhao9')">Fechar</button>
+        </dialog>
+      </div>
+
+      <!-- ... Caminhão 10 ... -->
+      <div class="gallery-subcontainer">
+      <a href="images/caminhao10.jpg" class="gallery-items">
+        <img src="images/caminhao10.jpg" alt="Automóvel 10">
+      </a>
+      <button class="btn-subcontainer" onclick="openModal('modal-caminhao10')">Verificar Disponibilidade</button>
+        <dialog id="modal-caminhao10">
+          <h2>Iveco</h2>
+          <h3>Modelo: Hi-Way 560</h3>
+          <p>Consumo médio: 3,2 a 3,6 km/l</p>
+          <p>Quantidade: 2 unidades</p>
+          <button onclick="closeModal('modal-caminhao10')">Fechar</button>
+        </dialog>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <span>Copyright &copy; | Tree Code</span>
+  </footer>
+</body>
+</html>
